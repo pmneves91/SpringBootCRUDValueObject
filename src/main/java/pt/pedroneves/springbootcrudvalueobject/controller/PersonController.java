@@ -2,14 +2,13 @@ package pt.pedroneves.springbootcrudvalueobject.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import pt.pedroneves.springbootcrudvalueobject.data.model.Person;
 import pt.pedroneves.springbootcrudvalueobject.data.vo.PersonVO;
 import pt.pedroneves.springbootcrudvalueobject.services.PersonServices;
 
 import java.util.List;
 
 @RestController
-@RequestMapping("/person")
+@RequestMapping("/api/person/v1")
 public class PersonController {
 
     @Autowired

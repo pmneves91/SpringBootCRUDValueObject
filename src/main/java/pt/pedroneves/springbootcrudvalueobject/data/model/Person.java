@@ -1,4 +1,4 @@
-package pt.pedroneves.springbootcrudvalueobject.model;
+package pt.pedroneves.springbootcrudvalueobject.data.model;
 
 import javax.persistence.*;
 import java.io.Serializable;
